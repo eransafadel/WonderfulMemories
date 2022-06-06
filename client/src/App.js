@@ -11,6 +11,7 @@ export default function App() {
   const classes = useStyles();
   return (
     <Container maxidth="lg"  >
+      
       <AppBar className={classes.appBar}  position="static" color="inherit">
         <Typography className={classes.heading} variant="h4" align="center">
           Memories
